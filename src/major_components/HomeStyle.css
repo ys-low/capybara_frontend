@@ -1,0 +1,43 @@
+.hero .hero-text{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:25%;
+    text-align: center;
+}
+
+.hero .hero-text h1{
+    font-size: 4rem;
+    padding:0.6rem 0 1rem;
+}
+
+.hero .hero-text p{
+    
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.hero-text p{
+    text-align: left;
+}
+
+.hero-text .btn{
+    margin:1rem 0.2rem;
+}
+
+.buttonContainer{
+    display:flex;
+}
+
+@media screen and (max-width: 1040px){
+    .hero .hero-text{      
+        left:50%;      
+    }
+    .buttonContainer{
+        flex-direction: column;
+    }
+
+    .hero-text .btn{
+        margin:0.3rem 0.7rem;
+    }
+}
